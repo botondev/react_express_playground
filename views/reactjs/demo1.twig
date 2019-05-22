@@ -1,0 +1,17 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+  <h1>{{title}}</h1>
+  <p>Welcome to {{title}}</p>
+  <a href="https://reactjs.org/docs/add-react-to-a-website.html">Original demo link: {{title}}</a>
+  <hr />
+
+  <div id="like_button_container">The apps place. yepp</div>
+
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="/javascripts/react/demo1/like_button.js"></script>
+
+{% endblock %}
